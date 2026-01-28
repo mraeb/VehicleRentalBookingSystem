@@ -1,0 +1,34 @@
+USE vrbs_db;
+
+INSERT INTO vehicle
+(vehicleId, make, model, year, vehicleType, licensePlate, dailyRate, status, mileage, createdAt, updatedAt)
+VALUES
+('VEH001','Hyundai','i20',2022,'Car','TN10AB1234',1500,'AVAILABLE',18,NOW(),NOW()),
+('VEH002','Honda','City',2021,'Sedan','TN09AB9876',1800,'AVAILABLE',16,NOW(),NOW()),
+('VEH003','Maruti','Swift',2022,'Car','TN12CD3456',1400,'AVAILABLE',20,NOW(),NOW()),
+('VEH004','Tata','Nexon',2023,'SUV','TN11EF9012',2200,'AVAILABLE',17,NOW(),NOW()),
+('VEH005','Yamaha','FZ',2021,'Bike','TN09CD5678',500,'AVAILABLE',45,NOW(),NOW()),
+('VEH006','RoyalEnfield','Classic350',2022,'Bike','TN10GH4321',650,'AVAILABLE',35,NOW(),NOW()),
+
+('VEH007','Hyundai','Venue',2022,'SUV','TN10AA7007',1900,'AVAILABLE',18,NOW(),NOW()),
+('VEH008','Maruti','Baleno',2021,'Car','TN09BB8008',1500,'AVAILABLE',20,NOW(),NOW()),
+('VEH009','Honda','Amaze',2020,'Sedan','TN07CC9009',1600,'AVAILABLE',17,NOW(),NOW()),
+('VEH010','Tata','Altroz',2022,'Car','TN11DD1010',1700,'AVAILABLE',19,NOW(),NOW()),
+
+('VEH011','Toyota','Innova',2023,'SUV','TN12EE1111',2500,'AVAILABLE',14,NOW(),NOW()),
+('VEH012','Kia','Seltos',2022,'SUV','TN08FF1212',2300,'AVAILABLE',16,NOW(),NOW()),
+('VEH013','Ford','Ecosport',2021,'SUV','TN06GG1313',2000,'AVAILABLE',15,NOW(),NOW()),
+('VEH014','Hyundai','Verna',2021,'Sedan','TN05HH1414',1800,'AVAILABLE',16,NOW(),NOW()),
+
+('VEH015','RoyalEnfield','Meteor350',2022,'Bike','TN04JJ1515',700,'AVAILABLE',34,NOW(),NOW()),
+('VEH016','Yamaha','R15',2023,'Bike','TN03KK1616',700,'AVAILABLE',40,NOW(),NOW()),
+('VEH017','TVS','ApacheRTR',2022,'Bike','TN02LL1717',600,'AVAILABLE',38,NOW(),NOW()),
+('VEH018','Bajaj','PulsarNS200',2021,'Bike','TN01MM1818',550,'AVAILABLE',42,NOW(),NOW()),
+
+('VEH019','Tata','Punch',2023,'Car','TN13NN1919',1600,'AVAILABLE',20,NOW(),NOW()),
+('VEH020','Hyundai','Creta',2023,'SUV','TN14OO2020',2200,'AVAILABLE',17,NOW(),NOW()),
+('VEH021','Hyundai','Exter',2023,'SUV','TN15PP2121',1850,'AVAILABLE',19,NOW(),NOW()),
+('VEH022','Skoda','Slavia',2022,'Sedan','TN16QQ2222',2000,'AVAILABLE',17,NOW(),NOW()),
+('VEH023','Volkswagen','Virtus',2022,'Sedan','TN17RR2323',2100,'AVAILABLE',16,NOW(),NOW()),
+('VEH024','Mahindra','XUV300',2023,'SUV','TN18SS2424',2300,'AVAILABLE',15,NOW(),NOW()),
+('VEH025','Hero','Xpulse200',2022,'Bike','TN19TT2525',650,'AVAILABLE',35,NOW(),NOW());
